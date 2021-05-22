@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.header {
+  width: 100vw;
+  background-color: #34495e;
+}
+
+.header .navbar-brand {
+  color: #ffffff;
+  -webkit-animation: music 1s linear infinite alternate;
+          animation: music 1s linear infinite alternate;
+}
+
+@-webkit-keyframes music {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes music {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+.header .navbar-brand:hover {
+  -webkit-filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
+          filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
+}
+
+.header .navbar-brand .fas {
+  font-size: 4rem;
+}
+
+.header .navbar-nav {
+  padding-left: 15rem;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem;
+  color: #ffffff;
+  padding: 3rem;
+  text-transform: uppercase;
+}
+
+.header .navbar-nav .nav-item:hover > .nav-link {
+  color: #e74c3c;
+}
+
+.header .navbar-brand:hover, .header .navbar-brand:hover > fas {
+  color: #e74c3c;
+}
+
+.header .mybtn {
+  padding: .8rem 3.2rem;
+  background: #e74c3c;
+  margin: 2.5rem 0 0 28rem;
+  font-size: 1.8rem;
+  text-transform: bold;
+  color: #ffffff;
+  border: none;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+  border-radius: 4.5rem;
+  outline: none;
+}
+
+.header .mybtn:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+          box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  color: #34495e;
+  -webkit-transform: translateY(-0.7rem);
+          transform: translateY(-0.7rem);
+}
+
+.middle {
+  width: 100%;
+  height: 80vh;
+  background-color: #2980b9;
+}
+
+.middle .middleText {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.middle .middleText h2 {
+  color: #ffffff;
+  font-size: 7rem;
+  margin-bottom: 3rem;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+.middle .middleText h2 span {
+  color: #e74c3c;
+  text-transform: uppercase;
+}
+
+.middle .middleText p {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 5rem;
+}
+
+.middle .middleText .middleButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.middle .middleText .middleButton a {
+  padding: .8rem 3.2rem;
+  background: #e74c3c;
+  font-size: 1.8rem;
+  text-transform: bold;
+  color: #ffffff;
+  border: none;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+  border-radius: 4.5rem;
+  outline: none;
+}
+
+.middle .middleText .middleButton a:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+          box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  color: #34495e;
+  -webkit-transform: translateY(-0.7rem);
+          transform: translateY(-0.7rem);
+}
+
+.middle .middleText .middleButton #btn_2 {
+  color: black;
+  margin-left: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.middle .middleText .middleButton #btn_2:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+          box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  color: #34495e;
+  -webkit-transform: translateY(-0.7rem);
+          transform: translateY(-0.7rem);
+}
+
+.middle .image {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: scale 10s linear infinite alternate;
+          animation: scale 10s linear infinite alternate;
+}
+
+@-webkit-keyframes scale {
+  from {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale {
+  from {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  .middle .middleText, .middleButton {
+    display: block;
+    margin: 0 auto;
+  }
+  .middleText, .middleButton a {
+    display: block;
+    text-align: center;
+  }
+  .middleText, .middleButton #btn_2 {
+    margin-top: 2rem;
+    margin-left: 0%;
+  }
+  .middle .image {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
